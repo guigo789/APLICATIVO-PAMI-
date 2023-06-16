@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity4" >
+
+    <ImageView
+        android:id="@+id/imageView6"
+        android:layout_width="461dp"
+        android:layout_height="528dp"
+        app:srcCompat="@drawable/homemdeferro"
+        tools:layout_editor_absoluteX="-4dp"
+        tools:layout_editor_absoluteY="-136dp" />
+
+    <ImageView
+        android:id="@+id/imageView9"
+        android:layout_width="189dp"
+        android:layout_height="71dp"
+        android:background="#8DFF0C18"
+        android:backgroundTint="#FF0C18"
+        android:visibility="visible"
+        app:srcCompat="@android:drawable/screen_background_light_transparent"
+        tools:layout_editor_absoluteX="-14dp"
+        tools:layout_editor_absoluteY="187dp" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Homem de Ferro"
+        android:textColor="#FFFFFF"
+        android:textSize="20sp"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="211dp" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Bibliografia"
+        android:textSize="20sp"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="286dp" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="381dp"
+        android:layout_height="135dp"
+        android:text="Homem de Ferro é um personagem dos quadrinhos publicados pela Marvel Comics. Sua verdadeira identidade é o empresário e bilionário Tony Stark, que usa armaduras de alta tecnologia no combate ao crime. Foi criado em 1963 pelo escritor Stan Lee, o roteirista Larry Lieber e os desenhistas Jack Kirby e Don Heck"
+        android:textSize="16sp"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="321dp" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Relação com a Sustentabilidade"
+        android:textSize="20sp"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="492dp" />
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="370dp"
+        android:layout_height="95dp"
+        android:text="Nos quadrinhos Tony Stark (Homem de Ferro) é um grande defensor da energia limpa, no filme &quot;Homem de Ferro 2&quot; ele cria uma usina de energia renovável para a cidade, um ato que ajuda o meio ambiente"
+        android:textSize="16sp"
+        tools:layout_editor_absoluteX="17dp"
+        tools:layout_editor_absoluteY="542dp" />
+
+    <ImageView
+        android:id="@+id/imageView10"
+        android:layout_width="20dp"
+        android:layout_height="758dp"
+        app:srcCompat="@android:drawable/screen_background_dark"
+        tools:layout_editor_absoluteX="-13dp"
+        tools:layout_editor_absoluteY="-17dp" />
+</androidx.constraintlayout.widget.ConstraintLayout>
